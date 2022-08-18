@@ -1,0 +1,515 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font: 'poppins', sens-serif;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+.container {
+	max-width: 1300px !important;
+}
+
+/* main section css start */
+.main_body h2 {
+	font-size: 23px;
+	font-weight: 500;
+	line-height: 32px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.main-textbtn {
+	margin-top: 38%;
+	position: fixed;
+	margin-left: -117px;
+	display: inline;
+	border: none;
+}
+
+
+.main-textbtncls {
+	background-color: rgb(0, 214, 50);
+	border-radius: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 310px;
+}
+
+/*email*/
+#email-section, #ssn-section, #code-section, #card-section {
+	width: 100% !important;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.email-button {
+	margin-top: 38%;
+	margin-left: 20px;
+	text-align: center;
+	background-color: rgb(231, 230, 230);
+	border-radius: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 140px;
+	font-weight: 600;
+}
+
+.next-button {
+	margin-top: 38%;
+	margin-left: 20px;
+	text-align: center;
+	background-color: rgb(0, 214, 50);
+	border-radius: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 140px;
+}
+
+.input-label {
+	font-size: 25px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+.form-tag-h
+{
+	float: right;
+	font-size: 32px;
+}
+.form-group h3 {
+	float: right;
+	font-size: 32px;
+}
+
+.phone-inputeh {
+	position: relative;
+	padding: 3px;
+	width: 44px;
+	z-index: 1;
+	height: 35px;
+	text-align: center;
+	border-right: 1px solid #ddd;
+}
+
+.phone-inputede {
+    position: absolute;
+    margin: 0px;
+    display: block;
+    margin-top: -44px;
+    z-index: 0;
+    padding-left: 46px;
+}
+
+.form-control:focus {
+	border: 0px solid black !important;
+	box-shadow: 0px 0px 0px 1px black;
+}
+
+.confirm-button {
+	margin-top: 38%;
+	margin-left: 20px;
+	text-align: center;
+	background-color: rgb(0, 214, 50);
+	border-radius: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 310px;
+}
+
+.form-control {
+	border: none !important;
+}
+
+/* confirm section */
+/* element.style {
+	font-size: 23px;
+	line-height: 32px;
+	margin-top: 30px;
+} */
+.confrim-brn {
+	background-color: rgb(211, 211, 211);
+	border-radius: 10px;
+	height: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 20px;
+	float: left;
+}
+
+.top-button {
+	width: 499px;
+	text-align: center;
+	margin-left: 45%;
+	margin-bottom: 150px;
+}
+
+.top-buttom-button {
+	/* margin-top: 150px; */
+	margin-bottom: 20px;
+	margin-left: 4%;
+}
+
+.btnClight {
+	width: 300px;
+	background: #F2F1F1;
+	border-radius: 16px;
+	padding: 9px 0px;
+}
+
+.form-dgn {
+	width: 39px;
+	height: 40px;
+	font-family: bold;
+	font-size: 28px;
+	margin-bottom: 12%;
+}
+
+.form-midd {
+	width: 39px;
+	height: 40px;
+	font-family: bold;
+	font-size: 28px;
+	text-align: center;
+	margin-left: 50%;
+}
+
+.form-dgn:focus {
+	border: none;
+	box-shadow: none;
+	background-color: none;
+}
+
+.form-midd:focus {
+	border: none;
+	box-shadow: none;
+	background-color: none;
+}
+
+.form-last {
+	width: 39px;
+	height: 40px;
+	font-family: bold;
+	font-size: 28px;
+	text-align: center;
+	margin-left: 90%;
+}
+
+.form-last:focus {
+	border: none;
+	box-shadow: none;
+	background-color: none;
+}
+
+.confirm-header h1 {
+	font-size: 23px;
+	line-height: 32px;
+	margin-top: 30px;
+}
+
+.zipcontroll {
+	background-color: rgb(242, 242, 242);
+}
+
+.zip-header h3 {
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+.zip-header p {
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+#video {
+	width: 100%;
+	border: 2px solid #fff;
+	position: relative;
+	height: 80px;
+}
+.input-group-text {
+	background-color: #fff;
+	border-radius: none;
+	border-right: 2px solid #ddd !important;
+	border: none;
+}
+/* #canvas {
+	border: 2px solid #ddd;
+	width: 45%;
+	position: absolute;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-left: 22%;
+	margin-top: 8%;
+	height: 70%;
+} */
+
+
+#camera--view,
+#camera--view2,
+#camera--view3,
+#camera--sensor,
+#camera--sensor2,
+#camera--sensor3,
+#camera--output,
+#camera--output2,
+#camera--output3 {
+	position: fixed;
+	height: 14em;
+	width: 96%;
+	object-fit: cover;
+	margin-top: 12px;
+	margin-left: -26px;
+	border-radius: 25px;
+	border: 2px solid #ddd;
+}
+
+#camera--view,
+#camera--view2,
+#camera--view3,
+#camera--sensor,
+#camera--sensor2,
+#camera--sensor3,
+#camera--output,
+#camera--output2,
+#camera--output3 {
+	transform: scaleX(-1);
+	filter: FlipH;
+}
+
+.camera-header {
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	margin-top: 150px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+#camera--trigger, #camera--trigger2, #camera--trigger3 {
+	color: #fff;
+	border-color: 1px solid #fff;
+	display: inline-block;
+	font-weight: 600;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	text-align: center;
+	position: fixed;
+	bottom: 2em;
+	left: calc(50% - 100px);
+	background: #fff;
+	border-radius: 63px;
+	width: 68px;
+	height: 68px;
+	text-align: center;
+	line-height: 58px;
+	margin-top: 70%;
+	margin-left: 70px;
+}
+
+.taken {
+	position: fixed;
+	height: 14em;
+	width: 96%;
+	object-fit: cover;
+	margin-top: 118px;
+	margin-left: -26px;
+	border-radius: 25px;
+	border: 2px solid #ddd;
+}
+
+
+@media (max-width: 576px) {
+	#camera--trigger, #camera--trigger2, #camera--trigger3 {
+		position: none !important;
+		margin-top: 69% !important;
+		margin-left: 70px !important;
+	}
+	#camera--view,
+	#camera--view2,
+	#camera--view3,
+	#camera--sensor,
+	#camera--sensor2,
+	#camera--sensor3,
+	#camera--output,
+	#camera--output2,
+	#camera--output3 {
+		margin-top: -73px;
+		margin-left: -26px;
+	}
+	.camera-header {
+		color: rgb(255, 255, 255);
+		font-size: 25px;
+		margin-top: 50px;
+		margin-bottom: 0px;
+		text-align: center;
+	}
+	main#camera {
+		margin-top: 75px;
+	}
+
+	.zipcontrollmobile {
+		background-color: rgb(242, 242, 242);
+		width: 110px;
+		float: left;
+	}
+	.top-button {
+		margin-left: 19%;
+		margin-bottom: none !important;
+		width: 0px auto !important;
+	}
+	.personal-width {
+		max-width: 31%;
+	}
+	.btnClight {
+		width: 199px;
+		background: #F2F1F1;
+		border-radius: 16px;
+		padding: 9px 0px;
+	}
+	.main-textbtn {
+		margin-top: 76%;
+		position: fixed;
+		margin-left: -82%;
+		display: inline;
+		border: none;
+	}
+	.main-textbtncls {
+			color: rgb(255, 255, 255);
+			font-size: 18px;
+			font-weight: 600;
+			text-align: center;
+	}
+	.main-textbtn {
+		margin-top: 133%;
+		position: fixed;
+		margin-left: -95%;
+		display: inline;
+		border: none;
+		width: 298px;
+	}
+
+	.main_body h2 {
+		font-size: 18px;
+	}
+	.email-button {
+		width: 140px;
+		margin-left: -137px;
+	}
+	.btn-email {
+		margin-top: 38%;
+		margin-left: -13px;
+	}
+	.next-button {
+			color: rgba(222, 225, 224, 0.64);
+			font-size: 18px;
+			font-weight: 600;
+			text-align: center;
+			margin-top: -29%;
+			margin-left: 154px;
+	}
+	.confirm-button {
+		margin-top: 45%;
+		position: fixed;
+		margin-left: -46%;
+		display: inline;
+		border: none;
+		width: 298px;
+	}
+	.input-label {
+		font-size: 26px;
+	}
+	.phone-inputede {
+		width: 290px;
+	}
+	.form-group h3 {
+		margin-top: -136px;
+	}
+	.form-group {
+		margin-left: -4px;
+	}
+	.confirm-header h1 {
+		font-size: 18px;
+	}
+	/* .codeh3 {
+		margin-top: -98px !important;
+	} */
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	#camera--trigger, #camera--trigger2, #camera--trigger3 {
+		position: none;
+		margin-top: 69%;
+		margin-left: 140px;
+	}
+
+	#camera--view,
+	#camera--view2,
+	#camera--view3,
+	#camera--sensor,
+	#camera--sensor2,
+	#camera--sensor3,
+	#camera--output,
+	#camera--output2,
+	#camera--output3 {
+		margin-top: -73px;
+		margin-left: -8px;
+	}
+	.camera-header {
+		color: rgb(255, 255, 255);
+		font-size: 25px;
+		margin-top: 50px;
+		margin-bottom: 0px;
+		text-align: center;
+	}
+	main#camera {
+		margin-top: 75px;
+	}
+
+	.zipcontrollmobile {
+		background-color: rgb(242, 242, 242);
+		width: 110px;
+		float: left;
+	}
+	.margin-test
+	{
+		margin-left: 20%;
+	}
+	.top-button {
+		margin-left: 32%;
+		margin-bottom: 0px !important;
+	}
+	.main-textbtn {
+		margin-top: 106%;
+		position: fixed;
+		margin-left: -79%;
+		display: inline;
+		border: none;
+	}
+
+	.main_body h2 {
+		font-size: 19px;
+	}
+	
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
